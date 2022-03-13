@@ -1,6 +1,6 @@
 html, body {
-    background-color: rgba(20,23,35);
-    font-family: 'Montserrat', sans-serif;
+    background-color: #121520;
+    font-family: 'Helvetica-Neu', sans-serif;
     text-align: center;
     color: white;
 }
@@ -10,10 +10,11 @@ html, body {
 .log {
     width: 15%;
 }
+
 .navbar, .top {
     /* background-color: #2970DD; */
     background-color: 
-rgba(0, 0, 255, 0.5);  
+rgba(0, 52, 88, 0.75);
 }
 .navbar {
     position:absolute; top:0px; left:0px; z-index:2;
@@ -26,20 +27,54 @@ rgba(0, 0, 255, 0.5);
 .ctam {
     padding: 10px;
 }
+
+.title {
+    /* top | horizontal | bottom */
+    padding: 0.30em 0em 0.65em;
+}
+
 .point {
     color: rgba(20,23,35);
 }
+
 h3 {
     padding: 20px;
 }
+
 h3::before {
     content: '';
 display: block;
 width: 50%;
 height: 1px;
-background: #eee;
+background-color: rgba(255, 255, 255, 0.25);
 margin: 40px auto 20px;
 }
+
+h2 {
+    color: rgba(143, 156, 170, 1);
+}
+
+h4 {
+    font-size: 2em;
+    /* top | horizontal | bottom
+    padding: 0.30em 0em 0.65em;*/
+    
+    margin: 1em 1em 1em;
+    color: rgba(210, 210, 215, 1);
+    
+}
+
+p {
+    font-size: 1.2em;
+    margin: 0em 2em 1em;
+    color: rgba(163, 176, 180, 1);
+}
+
+.section {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 .contact {
     text-align: left;
 }
@@ -50,5 +85,33 @@ margin: 40px auto 20px;
 
 .primary {
     text-decoration: none;
-    color :orange;
+    color: orange;
+}
+
+.generalSection {
+    text-align: justify;
+}
+
+.whatWeDo {
+    text-align: left;
+    
+    /* top | right | bottom | left */
+    margin: 0em 1em 0em 8em;
+}
+
+.lighterBgd {
+    background-color: #141723;
+
+}
+
+.darkerBgd {
+    background-color: #121520;
+}
+
+.someWork {
+    padding: 1.5em 0em;
+}
+
+.footer {
+    font-size: 0.7em
 }
