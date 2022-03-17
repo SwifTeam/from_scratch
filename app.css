@@ -1,6 +1,6 @@
 html, body {
     background-color: #121520;
-    font-family: 'Helvetica-Neu', sans-serif;
+    font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     color: white;
 }
@@ -59,9 +59,8 @@ h4 {
     /* top | horizontal | bottom
     padding: 0.30em 0em 0.65em;*/
     
-    margin: 1em 1em 1em;
+    margin: 0em 1em 1em;
     color: rgba(210, 210, 215, 1);
-    
 }
 
 p {
@@ -69,6 +68,7 @@ p {
     margin: 0em 2em 1em;
     color: rgba(163, 176, 180, 1);
 }
+
 
 .section {
     margin-top: 3em;
@@ -90,6 +90,10 @@ p {
 
 .generalSection {
     text-align: justify;
+    border-radius: 18px;
+    background: #151829;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .whatWeDo {
@@ -121,6 +125,13 @@ p {
     width: 20%;
     height: auto;
     margin-top: 0;
-    margin-right: 3em;
+    margin-right: 2em;
     margin-bottom: 3em;
+}
+
+.round {
+    border-radius: 18px;
+    background: #112;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
