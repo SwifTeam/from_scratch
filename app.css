@@ -101,6 +101,15 @@ p {
     padding-bottom: 1em;
 }
 
+/* Portrait and Landscape */
+@media screen and (max-width: 750px)
+{
+    #decorative {
+       display: none;
+    }
+}
+
+
 .folio {
     width: 25%;
     padding:  0.5em 1em;
@@ -135,6 +144,7 @@ p {
     text-align: justify;
     border-radius: 18px;
     background: #151829;
+    margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
