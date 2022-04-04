@@ -119,14 +119,14 @@ p {
 
 .folio {
     width: 25%;
-    padding:  0.5em 1em;
+    padding:  0.5em 0.75em;
    
 }
 
 @media screen and (max-width: 750px) {
     .folio {
         width: 45%;
-        padding:  0.5em 1em;
+        padding:  0.5em 0.75em;
     }
 }
 
@@ -179,6 +179,13 @@ p {
 
 .darkerBgd {
     background-color: #121520;
+}
+
+@media screen and (min-width: 750px) {
+    .marginRow {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    }
 }
 
 .someWork {
