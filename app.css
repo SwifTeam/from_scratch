@@ -212,10 +212,10 @@ p {
 
 .clientLogo {
     display: inline-block;
-    width: 10% ;
+    width: 8% ;
     height: auto;
+    margin: 0em 3em;
     margin-top: 0.75em;
-    margin-right: 4em;
     padding-bottom: 1.5em;
 }
 
@@ -224,8 +224,8 @@ p {
         display: inline-block;
         width: 15% ;
         height: auto;
+        margin: 0em 1.5em;
         margin-top: 0.75em;
-        margin-right: 2em;
         padding-bottom: 1.5em;
     }
 }
