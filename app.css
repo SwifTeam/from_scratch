@@ -156,6 +156,13 @@ p {
     padding-bottom: 1em;
 }
 
+.whoWeAre {
+    text-align: center;
+/*    */
+/*    /* top | right | bottom | left */*/
+/*    margin: 1em 1em 0em 2.5em;*/
+}
+
 .whatWeDo {
     text-align: left;
     
@@ -235,4 +242,13 @@ p {
     background: #112;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.whoWeAreLogo {
+    display: inline-block;
+    width: 50% ;
+    height: auto;
+    margin: 0em 3em;
+/*    margin-top: 0.75em;*/
+/*    padding-bottom: 1.5em;*/
 }
